@@ -8,4 +8,4 @@ apt-get install -y build-essential libtool autotools-dev automake pkg-config lib
 git clone https://github.com/qtumproject/qtum --recursive
 cd qtum
 ./autogen.sh
-./configure && make && make install
+./configure && make && make install && su ubuntu -c "qtumd -daemon"
