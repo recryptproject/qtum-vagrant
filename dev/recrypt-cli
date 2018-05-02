@@ -9,4 +9,4 @@ do
         args="$args $arg"
     fi
 done
-vagrant ssh -c "qtum-cli $args"
+vagrant ssh -c "recrypt-cli $args"
